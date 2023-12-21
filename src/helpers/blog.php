@@ -46,7 +46,7 @@
         if ($conn->query($query)) {
             $flag = true;
         }
-        
+
         return $flag;    
     }
 
