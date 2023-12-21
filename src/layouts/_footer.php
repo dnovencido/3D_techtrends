@@ -57,9 +57,10 @@
                     </div>
                 </div>
             </div>
+            <script src="assets/js/dropdown.js"></script>
+            <script src="https://cdn.ckeditor.com/ckeditor5/40.1.0/classic/ckeditor.js"></script>
+            <script src="assets/js/ckeditor.js"></script>
+            <script src="assets/js/script.js"></script>
         </footer>
-    <script src="assets/js/dropdown.js"></script>
-    <script src="https://cdn.ckeditor.com/ckeditor5/40.1.0/classic/ckeditor.js"></script>
-    <script src="assets/js/ckeditor.js"></script>
     </body>
 </html>

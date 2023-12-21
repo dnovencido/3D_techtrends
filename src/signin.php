@@ -45,11 +45,11 @@
             <form method="post">
                 <div class="input-control">
                     <label for="name">Email: </label>
-                    <input type="email" name="email" class="input-field input-md" value="" />
+                    <input type="email" name="email" class="input-field input-md" value="<?= $_POST['email'] ?>" />
                 </div>
                 <div class="input-control">
                     <label for="name">Password: </label>
-                    <input type="password" name="password" class="input-field input-md" value="" />
+                    <input type="password" name="password" class="input-field input-md" value="<?= $_POST['password'] ?>" />
                 </div>
                 <div class="input-control">
                     <input type="submit" name="submit" class="btn btn-md" value="Login" />

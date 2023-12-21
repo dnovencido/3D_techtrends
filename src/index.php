@@ -1,11 +1,11 @@
 <?php 
-    include "session.php"; 
+    include 'session.php'; 
 
     if(isset($_SESSION['id'])) {
         header("Location: feed");
     }
 ?>
-<?php include "layouts/_header.php"; ?>
+<?php include 'layouts/_header.php';?>
 <main>
     <section id="banner">
         <div id="inner-banner" class="container">
@@ -301,6 +301,6 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
 </main>
-<?php include "layouts/_footer.php"; ?>
+<?php include 'layouts/_footer.php';?>
